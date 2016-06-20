@@ -54,14 +54,22 @@
 		B6EB0EE71D18702B00E18071 /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
-				B6EB0EE81D18702B00E18071 /* AppDelegate.swift */,
+				B6EB0EFA1D18743100E18071 /* Supporting Files */,
 				B6EB0EEA1D18702B00E18071 /* ViewController.swift */,
 				B6EB0EEC1D18702B00E18071 /* Main.storyboard */,
+			);
+			path = Calculator;
+			sourceTree = "<group>";
+		};
+		B6EB0EFA1D18743100E18071 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6EB0EE81D18702B00E18071 /* AppDelegate.swift */,
 				B6EB0EEF1D18702B00E18071 /* Assets.xcassets */,
 				B6EB0EF11D18702B00E18071 /* LaunchScreen.storyboard */,
 				B6EB0EF41D18702B00E18071 /* Info.plist */,
 			);
-			path = Calculator;
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,7 +104,7 @@
 				TargetAttributes = {
 					B6EB0EE41D18702B00E18071 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = 452XRK7K2T;
+						DevelopmentTeam = LAKV4BAY4B;
 					};
 				};
 			};
@@ -252,10 +260,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Calculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.embrapa.cnpt.Calculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -263,10 +274,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Calculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.embrapa.cnpt.Calculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
